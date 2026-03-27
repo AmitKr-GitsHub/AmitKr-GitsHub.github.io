@@ -8,13 +8,13 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: "mailto:youremail@domain.edu"
+      href: "mailto:send2amitkr@gmail.com"
     - icon: github
       text: GitHub
-      href: "https://github.com/your-username"
+      href: "https://github.com/AmitKr-GitsHub"
     - icon: linkedin
       text: LinkedIn
-      href: "https://www.linkedin.com/in/your-profile"
+      href: "https://www.linkedin.com/in/amitkrlinked"
     - icon: mortarboard
       text: Google Scholar
       href: "https://scholar.google.com/citations?user=YOUR_ID"
@@ -24,9 +24,9 @@ about:
 ---
 
 ::: {.about-entity}
-## Your Name
+## Amit Kr Eshore
 
-PhD Candidate in Data Science and Economics. I work on causal inference, applied machine learning, and public-interest data products.
+I am a quantitative economist with a focus on data science, econometrics, and impact analysis. I specialize in building robust models—from panel data analysis; multifaceted data problems; to increasing productivity by solving real life problems. This space showcases my projects, interests and my journey.  
 
 <div class="home-buttons">
 <a class="btn btn-outline-primary" href="cv.qmd">CV</a>
