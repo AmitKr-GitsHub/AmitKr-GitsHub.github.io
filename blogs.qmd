@@ -1,0 +1,11 @@
+---
+title: "Blogs"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  fields: [title, date, categories, description]
+---
+
+Welcome to the blog. Posts are auto-listed from the `/posts/` directory.
