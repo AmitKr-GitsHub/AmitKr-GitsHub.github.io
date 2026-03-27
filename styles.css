@@ -1,0 +1,22 @@
+body {
+  background: #ffffff;
+}
+
+.about-entity {
+  max-width: 42rem;
+}
+
+.home-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+.updates-box {
+  border: 1px solid #d9d9d9;
+  border-radius: 0.6rem;
+  padding: 1rem 1.2rem;
+  margin-top: 1.5rem;
+  background: #fcfcfc;
+}

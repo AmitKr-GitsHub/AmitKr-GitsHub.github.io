@@ -1,0 +1,7 @@
+---
+title: "Public Goods"
+---
+
+## Datasets and Open-Source Tools
+
+- Add datasets, replication archives, and software tools.
