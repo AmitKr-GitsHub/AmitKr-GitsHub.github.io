@@ -1,0 +1,18 @@
+---
+title: "Welcome"
+date: 2026-03-26
+description: "First post in the Quarto portfolio."
+categories: [meta, quarto]
+---
+
+This is your first post. You can write Markdown, LaTeX math like $\beta_1$, and code blocks.
+
+```python
+import pandas as pd
+print("hello from python")
+```
+
+```stata
+sysuse auto, clear
+reg price mpg weight
+```

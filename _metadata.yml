@@ -1,0 +1,11 @@
+format:
+  html:
+    code-fold: false
+    code-copy: true
+    code-overflow: wrap
+    html-math-method: mathjax
+    df-print: paged
+
+knitr:
+  opts_chunk:
+    comment: "#>"
