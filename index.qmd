@@ -15,12 +15,12 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: "https://www.linkedin.com/in/amitkrlinked"
-    - icon: mortarboard
-      text: Google Scholar
-      href: "https://scholar.google.com/citations?user=YOUR_ID"
-    - icon: person-badge
-      text: ORCID
-      href: "https://orcid.org/0000-0000-0000-0000"
+    - icon: telegram
+      text: Telegram
+      href: "https://t.me/tell_amitkr"
+    - icon: instagram
+      text: Instagram
+      href: "https://instagram.com/named_amitkr"
 ---
 
 ::: {.about-entity}
@@ -39,8 +39,6 @@ I am a quantitative economist with a focus on data science, econometrics, and im
 ::: {.updates-box}
 ### Updates
 
-- **Mar 2026** • Presented paper at Midwest Econometrics Group Meeting.
-- **Feb 2026** • Teaching Assistant for *Applied Regression and Causal Inference*.
-- **Jan 2026** • Published reproducible policy dashboard in Public Goods.
-- **Nov 2025** • Released open-source package for panel-data workflows.
+- **Mar 2026** • Working on term paper for Education as well as Climate Policy.
+
 :::
