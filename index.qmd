@@ -1,0 +1,46 @@
+---
+title: ""
+about:
+  template: trestles
+  image: images/profile.jpg
+  image-shape: round
+  image-width: 14em
+  links:
+    - icon: envelope
+      text: Email
+      href: "mailto:youremail@domain.edu"
+    - icon: github
+      text: GitHub
+      href: "https://github.com/your-username"
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://www.linkedin.com/in/your-profile"
+    - icon: mortarboard
+      text: Google Scholar
+      href: "https://scholar.google.com/citations?user=YOUR_ID"
+    - icon: person-badge
+      text: ORCID
+      href: "https://orcid.org/0000-0000-0000-0000"
+---
+
+::: {.about-entity}
+## Your Name
+
+PhD Candidate in Data Science and Economics. I work on causal inference, applied machine learning, and public-interest data products.
+
+<div class="home-buttons">
+<a class="btn btn-outline-primary" href="cv.qmd">CV</a>
+<a class="btn btn-outline-primary" href="projects.qmd">Projects</a>
+<a class="btn btn-outline-primary" href="public-goods.qmd">Public Goods</a>
+<a class="btn btn-outline-primary" href="blogs.qmd">Blogs</a>
+</div>
+:::
+
+::: {.updates-box}
+### Updates
+
+- **Mar 2026** • Presented paper at Midwest Econometrics Group Meeting.
+- **Feb 2026** • Teaching Assistant for *Applied Regression and Causal Inference*.
+- **Jan 2026** • Published reproducible policy dashboard in Public Goods.
+- **Nov 2025** • Released open-source package for panel-data workflows.
+:::
