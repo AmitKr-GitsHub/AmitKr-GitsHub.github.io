@@ -4,4 +4,20 @@ title: "Projects"
 
 ## Research Projects
 
-- Add project summaries, methods, and links to papers/code.
+### 1. Spatial Inequality in Access to Elite Public Schools: Evidence from India's Jawahar Navodaya Vidyalaya System
+
+**Summary:** This study analyzes district-level admission cut-offs for India's JNV system to evaluate geographic disparities in educational access. It reveals strong regional clustering of admission thresholds and demonstrates that inequalities are driven more by applicant demographics than by school infrastructure, highlighting how local disparities are amplified through spatial spillovers. In conclusion the analyse recommends more schools in the region where the demand is more to make education more equitable. Also the summary statistics reject that this is due to more students in the poor states.
+
+**Methods:** Spatial Econometrics (SAR models), Spatial Autocorrelation (Global Moran's $I$, LISA Cluster Maps), OLS with Two-Way Fixed Effects, and Rank Persistence Analysis.
+
+**Tech:** R, Python, Stata, GIS/Shapefiles.
+
+**Links:** [Download Slides](/files/PPT_12_Amit_Kr.pdf) | [Code](https://drive.google.com/drive/folders/1KfDVhKghjLyRQS_Be9zpuh-DYzKu3McU?usp=sharing)
+
+#### Presentation Slides
+
+```{=html}
+<object data="/files/PPT_12_Amit_Kr.pdf" type="application/pdf" width="100%" height="600px">
+    <p>It appears you don't have a PDF plugin for this browser.
+    You can <a href="/files/PPT_12_Amit_Kr.pdf">click here to download the PDF file.</a></p>
+</object>
