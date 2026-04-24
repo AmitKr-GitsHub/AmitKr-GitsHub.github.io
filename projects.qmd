@@ -25,3 +25,14 @@ toc-location: right
     <p>It appears you don't have a PDF plugin for this browser.
     You can <a href="/files/PPT_12_Amit_Kr.pdf">click here to download the PDF file.</a></p>
 </object>
+
+## Out of interest Project
+
+### 1. IGIDR automatic confession posting system.
+**Summary** People had complain about the biasedness in the confessions being posted in the normal confession page in the instagram. Complains mostly about the arbitary rejection; no consent from the one who has been mentioned in the confession. People being too insensitive and it was becoming more of bullying. This projects try to address these problems by automating everything; with minimal human intervention. The confessions are accepted from an simple HTML website; then every confession goes through city location check; device id allotment based on device fingerprint; sentiment check by Google Sentiment Analyser; consent check and if it passes everything then the it gets automatically posted on the instagram page. If flagged then it requires human intervention.
+
+**Methods:** SQL Lite database for confession saving; Instagrapi unofficial api for interacting with Instagram; GoogleSentimentAnalyser for sentiment analysis; SimpleCaptcha for security captcha, to prevent automation; pillow for writing confession in a template.
+
+**Tech:** Python, html, CSS
+
+**Links:** [Code](https://github.com/AmitKr-GitsHub/automatic_confession_page)
