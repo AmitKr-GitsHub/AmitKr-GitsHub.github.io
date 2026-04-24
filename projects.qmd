@@ -21,3 +21,9 @@ title: "Projects"
     <p>It appears you don't have a PDF plugin for this browser.
     You can <a href="/files/PPT_12_Amit_Kr.pdf">click here to download the PDF file.</a></p>
 </object>
+
+### 2. Impact of Rainfall on Inflation
+
+**Summary:** In this we try to look at how rainfall and temperature shock calculated from the satellite level data i.e., ERA 5 data impacts the inflation. 
+
+
