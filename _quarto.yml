@@ -16,6 +16,9 @@ website:
         text: Public Goods
       - href: blogs.qmd
         text: Blogs
+  page-footer:
+    center: |
+      Visits: ![](https://visitor-badge.laobi.icu/badge?page_id=AmitKr-GitsHub.AmitKr-GitsHub.github.io)
 
 format:
   html:
