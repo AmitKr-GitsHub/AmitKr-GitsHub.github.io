@@ -4,10 +4,6 @@ project:
 
 website:
   title: ""
-  # Add the GoatCounter script here
-  include-in-header: |
-    <script data-goatcounter="https://amitkr.goatcounter.com/count"
-            async src="//gc.zgo.at/count.js"></script>
   navbar:
     left:
       - href: index.qmd
@@ -20,6 +16,7 @@ website:
         text: Public Goods
       - href: blogs.qmd
         text: Blogs
+
   page-footer:
     center: |
       Visits: ![](https://visitor-badge.laobi.icu/badge?page_id=AmitKr-GitsHub.AmitKr-GitsHub.github.io)
@@ -32,6 +29,10 @@ format:
     anchor-sections: true
     css: styles.css
     highlight-style: github
+    # Adding the GoatCounter script here ensures it is included in every page header
+    include-in-header:
+      text: |
+        <script data-goatcounter="https://amitkr.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
 execute:
   echo: false
