@@ -17,9 +17,10 @@ website:
       - href: blogs.qmd
         text: Blogs
 
-  page-footer: 
+  page-footer:
     center: |
-      Visits: ![](https://visitor-badge.laobi.icu/badge)
+    Visits: ![](https://visitor-badge.laobi.icu/badge?page_url={{< meta path >}})
+
 
 format:
   html:
