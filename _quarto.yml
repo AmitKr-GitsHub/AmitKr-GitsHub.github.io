@@ -17,9 +17,9 @@ website:
       - href: blogs.qmd
         text: Blogs
 
-  page-footer:
+  page-footer: 
     center: |
-      Visits: ![](https://visitor-badge.laobi.icu/badge?page_id=AmitKr-GitsHub.AmitKr-GitsHub.github.io)
+      Visits: ![](https://visitor-badge.laobi.icu/badge?page_id=AmitKr-GitsHub.{{< meta filename >}})
 
 format:
   html:
