@@ -19,7 +19,7 @@ website:
 
   page-footer: 
     center: |
-      Visits: ![](https://visitor-badge.laobi.icu/badge?page_id=AmitKr-GitsHub.{{< meta filename >}})
+      Visits: ![](https://visitor-badge.laobi.icu/badge)
 
 format:
   html:
