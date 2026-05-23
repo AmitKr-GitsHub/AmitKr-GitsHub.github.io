@@ -36,3 +36,8 @@ toc-location: right
 **Tech:** Python, html, CSS
 
 **Links:** [Code](https://github.com/AmitKr-GitsHub/automatic_confession_page)
+
+---
+<div style="text-align: center;">
+  Visits: ![](https://visitor-badge.laobi.icu/badge?page_id=amitkr_projects)
+</div>
