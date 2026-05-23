@@ -24,9 +24,9 @@ about:
 ---
 
 ::: {.about-entity}
-## _Hi_ , I'm Amit Kumar Eshore.
+## hi 👋, I'm <mark>Amit Kr Eshore</mark>.
 
-Having recently completed my studies at IGIDR, Mumbai, I am excited to begin my professional journey at [Bank Name]. I am passionate about applying economics, finance, and technology to solve real-world problems. I love working with numbers and use Python, Stata, and Excel to translate raw data into actionable insights.
+Having recently completed my studies at IGIDR, Mumbai, I am excited to begin my professional journey. I am passionate about applying economics, finance, and technology to solve real-world problems. I love working with numbers and use Python, Stata, and Excel to translate raw data into actionable insights.
 
 I find my academic stride at the intersection of economics and computer science. While economics is fluid and constantly under scrutiny, blending it with computational methods—especially modern AI use cases—provides the analytical rigor I enjoy most.
 
