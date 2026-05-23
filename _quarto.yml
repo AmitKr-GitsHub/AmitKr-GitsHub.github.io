@@ -18,7 +18,7 @@ website:
         text: Blogs
 
   page-footer:
-    center: "Visits: ![](https://visitor-badge.laobi.icu/badge?page_url={{< meta path >}})"
+    left: ""
 
 
 format:
