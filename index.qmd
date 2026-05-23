@@ -24,9 +24,13 @@ about:
 ---
 
 ::: {.about-entity}
-## Amit Kr Eshore
+## _Hi_ , I'm Amit Kumar Eshore.
 
-I am a quantitative economist with a focus on data science, econometrics, and impact analysis. I specialize in building robust models—from panel data analysis; multifaceted data problems; to increasing productivity by solving real life problems. This space showcases my projects, interests and my journey.  
+Having recently completed my studies at IGIDR, Mumbai, I am excited to begin my professional journey at [Bank Name]. I am passionate about applying economics, finance, and technology to solve real-world problems. I love working with numbers and use Python, Stata, and Excel to translate raw data into actionable insights.
+
+I find my academic stride at the intersection of economics and computer science. While economics is fluid and constantly under scrutiny, blending it with computational methods—especially modern AI use cases—provides the analytical rigor I enjoy most.
+
+Beyond analytics, I am a lifelong learner. I build my strategic thinking through competitive sports like chess, tennis, and volleyball. I also have a deep appreciation for music; I play the guitar and ukulele, and I'm currently expanding my creative horizons by learning the flute and studying music theory.
 
 <div class="home-buttons">
 <a class="btn btn-outline-primary" href="cv.qmd">CV</a>
