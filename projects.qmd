@@ -1,459 +1,128 @@
 ---
-
 title: "Projects"
-
 toc: true
-
 toc-depth: 3
-
 toc-title: "Jump to Project"
-
 toc-location: right
-
 ---
-
-
 
 ## Academic Projects
 
-
-
 ### 1st Year Projects
 
-
-
 #### 1. Analyzing Cyclical Components of GDP
-
 **Summary:** This research analyzes the cyclical and long-run trend components of key macroeconomic indicators in India and performs a comparative study of economic volatility between developed and developing economies. By detrending data from 1996 to 2019, the study demonstrates that developing countries experience significantly higher economic volatility. Furthermore, the analysis uncovers an unexpected negative correlation between India's real investment and net exports relative to real GDP.
-
-
 
 **Methods:** Hodrick-Prescott (HP) filter for cyclical decomposition, standard deviations computation, and descriptive volatility analysis.
 
-
-
 **Tech:** Stata, Excel, LaTeX.
-
-
 
 **Links:** [Download PDF](/files/msc_IGIDR/sem1_ANALYZING_CYCLICAL_COMPONETS_OF_GDP_sargam.pdf)
 
-
-
-```{=html}
-
-<object data="/files/msc_IGIDR/sem1_ANALYZING_CYCLICAL_COMPONETS_OF_GDP_sargam.pdf" type="application/pdf" width="100%" height="600px">
-
-    <p>It appears you don't have a PDF plugin for this browser.
-
-    You can <a href="/files/msc_IGIDR/sem1_ANALYZING_CYCLICAL_COMPONETS_OF_GDP_sargam.pdf">click here to download the PDF file.</a></p>
-
-</object>
-
-
-
-```
-
-
-
 #### 2. Empirical Examination of Absolute Convergence Hypothesis
-
-
-
 **Summary:** This project empirically tests the absolute convergence hypothesis, which posits that poorer economies will grow faster than richer ones to reach a common income per capita level. Utilizing Penn World Table (PWT) and World Bank data from 1985–2019 across 89 countries, the study evaluates convergence in both GDP per capita and national investment rates (Gross Capital Formation). The findings reveal statistically significant absolute convergence during the 2000–2019 period, suggesting that rapid technology adoption post-globalization helped reduce income inequality across nations.
-
-
 
 **Methods:** Ordinary Least Squares (OLS) Regression, cross-sectional convergence analysis, conditional convergence testing via the Solow growth framework.
 
-
-
 **Tech:** Python.
 
-
-
-**Links:** [Download PDF](https://www.google.com/search?q=/files/msc_IGIDR/sem2_development_economics_ramaswammy.pdf)
-
-
-
-```{=html}
-
-<object data="/files/msc_IGIDR/sem2_development_economics_ramaswammy.pdf" type="application/pdf" width="100%" height="600px">
-
-    <p>It appears you don't have a PDF plugin for this browser.
-
-    You can <a href="/files/msc_IGIDR/sem2_development_economics_ramaswammy.pdf">click here to download the PDF file.</a></p>
-
-</object>
-
-
-
-```
-
-
+**Links:** [Download PDF](/files/msc_IGIDR/sem2_development_economics_ramaswammy.pdf)
 
 #### 3. Internet Inequality: The Role of Gender in Digital Access in India
-
-
-
 **Summary:** Utilizing the Comprehensive Annual Modular Survey (CAMS) 2022-23 dataset, this study investigates the gender digital divide in India. By applying household-level fixed effects, the research isolates intra-household differences and confirms that women are significantly less likely to use the internet compared to men residing in the same household. The empirical results emphasize that controlling for employment and educational status narrows the digital literacy gap, highlighting the critical role of workforce participation and formal education in reducing digital inequality.
-
-
 
 **Methods:** Binary Logistic Regression, Conditional Logistic Regression with household-level fixed effects, Maximum Likelihood Estimation, Average Partial/Marginal Effects.
 
-
-
 **Tech:** Stata, Python.
 
-
-
-**Links:** [Download PDF](https://www.google.com/search?q=/files/msc_IGIDR/sem2_Internet_Inequality__The_role_of_Gender_in_Digital_Access_in_India_ganesh_kr.pdf)
-
-
-
-```{=html}
-
-<object data="/files/msc_IGIDR/sem2_Internet_Inequality__The_role_of_Gender_in_Digital_Access_in_India_ganesh_kr.pdf" type="application/pdf" width="100%" height="600px">
-
-    <p>It appears you don't have a PDF plugin for this browser.
-
-    You can <a href="/files/msc_IGIDR/sem2_Internet_Inequality__The_role_of_Gender_in_Digital_Access_in_India_ganesh_kr.pdf">click here to download the PDF file.</a></p>
-
-</object>
-
-
-
-```
-
-
+**Links:** [Download PDF](/files/msc_IGIDR/sem2_Internet_Inequality__The_role_of_Gender_in_Digital_Access_in_India_ganesh_kr.pdf)
 
 #### 4. Emerging Market Business Cycles: The Cycle is the Trend
-
-
-
 **Summary:** Based on the framework by Aguiar and Gopinath, this presentation challenges the traditional macroeconomic perspective on business cycles in emerging markets. The project demonstrates that economic fluctuations in emerging markets (such as Mexico) are predominantly driven by permanent shocks to the long-term trend growth, rather than just transitory fluctuations. It details how emerging markets exhibit unique characteristics, such as strongly counter-cyclical current accounts and consumption that is significantly more volatile than income.
-
-
 
 **Methods:** Real Business Cycle (RBC) modeling, Generalized Method of Moments (GMM) estimation, Impulse Response Functions (IRFs), Autocovariance Analysis of Solow Residuals.
 
-
-
 **Tech:** Macroeconomic Modeling, Presentation Software.
 
-
-
-**Links:** [Download Slides](https://www.google.com/search?q=/files/msc_IGIDR/sem2_THE_CYCLE_IS_THE_TREND_presentation_taniya.pdf)
-
-
-
-```{=html}
-
-<object data="/files/msc_IGIDR/sem2_THE_CYCLE_IS_THE_TREND_presentation_taniya.pdf" type="application/pdf" width="100%" height="600px">
-
-    <p>It appears you don't have a PDF plugin for this browser.
-
-    You can <a href="/files/msc_IGIDR/sem2_THE_CYCLE_IS_THE_TREND_presentation_taniya.pdf">click here to download the PDF file.</a></p>
-
-</object>
-
-
-
-```
-
-
+**Links:** [Download Slides](/files/msc_IGIDR/sem2_THE_CYCLE_IS_THE_TREND_presentation_taniya.pdf)
 
 #### 5. Variable Capital Utilization in a Real Business Cycle Model
-
-
-
 **Summary:** This project extends the standard Real Business Cycle (RBC) framework by incorporating variable capital utilization (VCU), allowing firms to choose the intensity of capital use in response to economic conditions. The model features a convex depreciation function, reflecting the trade-off between higher capital services and accelerated wear-and-tear. By calibrating the DSGE model for both a developed economy (U.S.) and a developing economy (India), the study proves that VCU acts as an endogenous amplification mechanism, enabling the model to better replicate empirical business cycle dynamics—specifically the volatility and pro-cyclicality of investment and consumption.
-
-
 
 **Methods:** Dynamic Stochastic General Equilibrium (DSGE) Modeling, Log-linearization, Impulse Response Functions (IRFs), Steady-State Analysis.
 
-
-
 **Tech:** Dynare (MATLAB/Octave).
 
-
-
-**Links:** [Download PDF](https://www.google.com/search?q=/files/msc_IGIDR/sem2_VAR_model_Taniya_Das.pdf)
-
-
-
-```{=html}
-
-<object data="/files/msc_IGIDR/sem2_VAR_model_Taniya_Das.pdf" type="application/pdf" width="100%" height="600px">
-
-    <p>It appears you don't have a PDF plugin for this browser.
-
-    You can <a href="/files/msc_IGIDR/sem2_VAR_model_Taniya_Das.pdf">click here to download the PDF file.</a></p>
-
-</object>
-
-
-
-```
-
-
+**Links:** [Download PDF](/files/msc_IGIDR/sem2_VAR_model_Taniya_Das.pdf)
 
 ---
 
-
-
 ### 2nd Year Projects
 
-
-
 #### 1. Capital Asset Pricing Model (CAPM) Analysis
-
-
-
 **Summary:** [Content pending]
-
-
 
 **Methods:** [Content pending]
 
-
-
 **Tech:** Python, Stata.
 
-
-
-**Links:** [Download PDF](https://www.google.com/search?q=/files/msc_IGIDR/sem3_Capm_Group_6_Avik_Sinha.pdf)
-
-
-
-```{=html}
-
-<object data="/files/msc_IGIDR/sem3_Capm_Group_6_Avik_Sinha.pdf" type="application/pdf" width="100%" height="600px">
-
-    <p>It appears you don't have a PDF plugin for this browser.
-
-    You can <a href="/files/msc_IGIDR/sem3_Capm_Group_6_Avik_Sinha.pdf">click here to download the PDF file.</a></p>
-
-</object>
-
-
-
-```
-
-
+**Links:** [Download PDF](/files/msc_IGIDR/sem3_Capm_Group_6_Avik_Sinha.pdf)
 
 #### 2. Climate and Economic Policy Term Paper
-
-
-
 **Summary:** [Content pending]
-
-
 
 **Methods:** [Content pending]
 
-
-
 **Tech:** Python, Stata.
-
-
 
 **Links:** [Download PDF](/files/msc_IGIDR/sem3_Climate_and_Economic_Policy_Term_Paper - Reviewed_manisha.pdf)
 
-
-
-```{=html}
-
-<object data="/files/msc_IGIDR/sem3_Climate_and_Economic_Policy_Term_Paper - Reviewed_manisha.pdf" type="application/pdf" width="100%" height="600px">
-
-    <p>It appears you don't have a PDF plugin for this browser.
-
-    You can <a href="/files/msc_IGIDR/sem3_Climate_and_Economic_Policy_Term_Paper - Reviewed_manisha.pdf">click here to download the PDF file.</a></p>
-
-</object>
-
-
-
-```
-
-
-
 #### 3. Indian Economy Term Paper
-
-
-
 **Summary:** [Content pending]
-
-
 
 **Methods:** [Content pending]
 
-
-
 **Tech:** Python, Stata.
 
-
-
-**Links:** [Download PDF](https://www.google.com/search?q=/files/msc_IGIDR/sem3_indian_eco_term_paper_chandra.pdf)
-
-
-
-```{=html}
-
-<object data="/files/msc_IGIDR/sem3_indian_eco_term_paper_chandra.pdf" type="application/pdf" width="100%" height="600px">
-
-    <p>It appears you don't have a PDF plugin for this browser.
-
-    You can <a href="/files/msc_IGIDR/sem3_indian_eco_term_paper_chandra.pdf">click here to download the PDF file.</a></p>
-
-</object>
-
-
-
-```
-
-
+**Links:** [Download PDF](/files/msc_IGIDR/sem3_indian_eco_term_paper_chandra.pdf)
 
 #### 4. Case Study: Bank Policy
-
-
-
 **Summary:** [Content pending]
-
-
 
 **Methods:** [Content pending]
 
-
-
 **Tech:** Python, Stata.
 
-
-
-**Links:** [Download PDF](https://www.google.com/search?q=/files/msc_IGIDR/sem4_case_study_bank_policy_by_Balu.pdf)
-
-
-
-```{=html}
-
-<object data="/files/msc_IGIDR/sem4_case_study_bank_policy_by_Balu.pdf" type="application/pdf" width="100%" height="600px">
-
-    <p>It appears you don't have a PDF plugin for this browser.
-
-    You can <a href="/files/msc_IGIDR/sem4_case_study_bank_policy_by_Balu.pdf">click here to download the PDF file.</a></p>
-
-</object>
-
-
-
-```
-
-
+**Links:** [Download PDF](/files/msc_IGIDR/sem4_case_study_bank_policy_by_Balu.pdf)
 
 #### 5. Spatial Inequality
-
-
-
 **Summary:** [Content pending]
-
-
 
 **Methods:** [Content pending]
 
-
-
 **Tech:** Python, Stata.
 
-
-
-**Links:** [Download PDF](https://www.google.com/search?q=/files/msc_IGIDR/sem4_spatial_inequality_jandhaya_bg_tilak.pdf)
-
-
-
-```{=html}
-
-<object data="/files/msc_IGIDR/sem4_spatial_inequality_jandhaya_bg_tilak.pdf" type="application/pdf" width="100%" height="600px">
-
-    <p>It appears you don't have a PDF plugin for this browser.
-
-    You can <a href="/files/msc_IGIDR/sem4_spatial_inequality_jandhaya_bg_tilak.pdf">click here to download the PDF file.</a></p>
-
-</object>
-
-
-
-```
-
-
+**Links:** [Download PDF](/files/msc_IGIDR/sem4_spatial_inequality_jandhaya_bg_tilak.pdf)
 
 #### 6. Climate Term Paper
-
-
-
 **Summary:** [Content pending]
-
-
 
 **Methods:** [Content pending]
 
-
-
 **Tech:** Python, Stata.
 
-
-
-**Links:** [Download PDF](https://www.google.com/search?q=/files/msc_IGIDR/sem4_Climate_Term_Paper_Sankalp_Mathur.pdf)
-
-
-
-```{=html}
-
-<object data="/files/msc_IGIDR/sem4_Climate_Term_Paper_Sankalp_Mathur.pdf" type="application/pdf" width="100%" height="600px">
-
-    <p>It appears you don't have a PDF plugin for this browser.
-
-    You can <a href="/files/msc_IGIDR/sem4_Climate_Term_Paper_Sankalp_Mathur.pdf">click here to download the PDF file.</a></p>
-
-</object>
-
-
-
-```
-
-
+**Links:** [Download PDF](/files/msc_IGIDR/sem4_Climate_Term_Paper_Sankalp_Mathur.pdf)
 
 #### 7. Politics and Local Economics
-
-
-
 **Summary:** [Content pending]
-
-
 
 **Methods:** [Content pending]
 
-
-
 **Tech:** Python, Stata.
 
+**Links:** [Download PDF](/files/msc_IGIDR/sem4_poleco_politics_and_local_economics_bharti_nandwani.pdf)
 
-
-**Links:** [Download PDF](https://www.google.com/search?q=/files/msc_IGIDR/sem4_poleco_politics_and_local_economics_bharti_nandwani.pdf)
-
-
-
-```{=html}
-
-<object data="/files/msc_IGIDR/sem4_poleco_politics_and_local_economics_bharti_nandwani.pdf" type="application/pdf" width="100%" height="600px">
-
-    <p>It appears you don't have a PDF plugin for this browser.
-
-    You can <a href="/files/msc_IGIDR/sem4_poleco_politics_and_local_economics_bharti_nandwani.pdf">click here to download the PDF file.</a></p>
-
-</object>
-
-
-
-```
+---
+<div style="text-align: center;">
+  Visits: ![](https://visitor-badge.laobi.icu/badge?page_id=amitkr_projects)
+</div>
