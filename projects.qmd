@@ -126,7 +126,16 @@ toc-location: right
 
 ## Out of Interest Projects
 
-### 1. IGIDR Automatic Confession Posting System
+#### 1. Amex Campus Challenge
+**Summary:** 
+
+**Methods:** 
+
+**Tech:** Python
+
+**Links:** [Code](https://github.com/AmitKr-GitsHub/automatic_confession_page)
+
+#### 2. IGIDR Automatic Confession Posting System
 **Summary:** People had complained about the biasedness in the confessions being posted on the normal confession page on Instagram. Complaints mostly centered about arbitrary rejection, lack of consent from those mentioned, and insensitive content bordering on bullying. This project tries to address these problems by automating the workflow with minimal human intervention. Confessions are accepted via a simple HTML website, passing through a city location check, device fingerprinting, sentiment analysis via Google, and a consent check. If it passes all checks, it is automatically posted to the Instagram page; if flagged, it requires human review.
 
 **Methods:** SQLite database for data storage, Instagrapi unofficial API for Instagram interaction, Google Sentiment Analyzer for NLP checks, SimpleCaptcha for security, and Pillow for dynamic image templating.
