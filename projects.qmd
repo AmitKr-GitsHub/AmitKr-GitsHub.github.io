@@ -59,68 +59,81 @@ toc-location: right
 
 ### 2nd Year Projects
 
-#### 1. Capital Asset Pricing Model (CAPM) Analysis
-**Summary:** [Content pending]
+#### 1. Testing the Capital Asset Pricing Model (CAPM)
+**Summary:** This case study tests the CAPM framework for a mid-cap firm to determine if market excess returns adequately explain its stock returns. The analysis reveals a firm beta of 1.31, indicating higher volatility and risk compared to the broader market. With an $R^2$ of 0.89, the model confirms that firm returns are largely driven by market movements, rewarding investors with a higher risk tolerance and establishing a reliable hurdle rate for cost of equity calculations.
 
-**Methods:** [Content pending]
+**Methods:** Time-Series Regression, Fama-MacBeth Two-Pass Regression conceptually applied, OLS Regression, and Robust Standard Error corrections for heteroskedasticity.
 
 **Tech:** Python, Stata.
 
 **Links:** [Download PDF](/files/msc_IGIDR/sem3_Capm_Group_6_Avik_Sinha.pdf)
 
-#### 2. Climate and Economic Policy Term Paper
-**Summary:** [Content pending]
+#### 2. Assessing the Quality of BRSR Disclosures in India
+**Summary:** This paper evaluates the quality and reliability of India's newly mandated Business Responsibility and Sustainability Reporting (BRSR) framework for NIFTY listed firms from 2022 to 2024. Despite the shift toward mandatory ESG reporting, the analysis uncovers that environmental data—specifically greenhouse gas emissions and energy intensities—are heavily compromised by systematic missingness and non-uniform reporting due to underdeveloped environmental measurement infrastructure in emerging markets.
 
-**Methods:** [Content pending]
+**Methods:** Data Quality Assessment, Reporting Consistency Analysis, and the creation of a novel feasibility metric based on grid emission factors.
 
 **Tech:** Python, Stata.
 
 **Links:** [Download PDF](/files/msc_IGIDR/sem3_Climate_and_Economic_Policy_Term_Paper - Reviewed_manisha.pdf)
 
-#### 3. Indian Economy Term Paper
-**Summary:** [Content pending]
+#### 3. Impact of Owner's Education on Productivity of Unincorporated Enterprises
+**Summary:** This research examines how the educational attainment of enterprise owners impacts labor productivity within India's vast unincorporated and informal sector. Utilizing PLFS survey data, the findings indicate a strong positive association between an owner's education and firm productivity. Establishments run by more educated owners significantly outperform those managed by illiterate owners, and while over-education does not negatively impact output, under-education creates a substantial productivity deficit.
 
-**Methods:** [Content pending]
+**Methods:** Cross-sectional Productivity Analysis, Efficiency Estimation, and Survey Microdata Analysis.
 
-**Tech:** Python, Stata.
+**Tech:** Stata, Python.
 
 **Links:** [Download PDF](/files/msc_IGIDR/sem3_indian_eco_term_paper_chandra.pdf)
 
-#### 4. Case Study: Bank Policy
-**Summary:** [Content pending]
+#### 4. Digital Tools and Recovery: Retail NPA Diagnostic
+**Summary:** Focused on the challenge of recovering high-volume, low-ticket retail Non-Performing Assets (NPAs), this case study for ABC Bank diagnoses strategic gaps where traditional recovery costs exceed the recoverable value. It proposes a transition to a data-driven recovery framework utilizing Open Source Intelligence (OSINT) and a Unified Lending Interface (ULI) to improve borrower traceability, optimize recovery costs, and reduce the overall NPA account count by 20%.
 
-**Methods:** [Content pending]
+**Methods:** Portfolio Diagnostic Snapshot, Strategic Gap Analysis, and OSINT Framework Application.
 
-**Tech:** Python, Stata.
+**Tech:** OSINT Tools, Python (Data Fetching/Bot Integration).
 
 **Links:** [Download PDF](/files/msc_IGIDR/sem4_case_study_bank_policy_by_Balu.pdf)
 
-#### 5. Spatial Inequality
-**Summary:** [Content pending]
+#### 5. Spatial Inequality in Access to Elite Public Schools
+**Summary:** This study analyzes district-level admission cut-offs for India's Jawahar Navodaya Vidyalaya (JNV) system to evaluate geographic disparities in educational access. It reveals strong regional clustering of admission thresholds and demonstrates that inequalities are driven more by applicant demographics than by school infrastructure, highlighting how local disparities are amplified through spatial spillovers. The analysis recommends building more schools in high-demand regions to make education more equitable, rejecting the hypothesis that shortfalls are purely due to higher student populations in poorer states.
 
-**Methods:** [Content pending]
+**Methods:** Spatial Econometrics (SAR models), Spatial Autocorrelation (Global Moran's $I$, LISA Cluster Maps), OLS with Two-Way Fixed Effects, and Rank Persistence Analysis.
 
-**Tech:** Python, Stata.
+**Tech:** R, Python, Stata, GIS/Shapefiles.
 
 **Links:** [Download PDF](/files/msc_IGIDR/sem4_spatial_inequality_jandhaya_bg_tilak.pdf)
 
-#### 6. Climate Term Paper
-**Summary:** [Content pending]
+#### 6. Climate Shocks and Inflation in Indian States
+**Summary:** This term paper investigates the macroeconomic transmission of climate shocks—specifically rainfall and extreme temperature anomalies—into state-level inflation dynamics across India. The research disaggregates the effects on headline inflation, food and beverages, and fuel and light, demonstrating that abnormal weather conditions create significant inflationary pressures that operate with lags through agricultural losses, supply disruptions, and local market adjustments.
 
-**Methods:** [Content pending]
+**Methods:** Local Projections Approach (Jordà 2005), Impulse Response Functions (IRFs), and State-level Panel Data Analysis.
 
-**Tech:** Python, Stata.
+**Tech:** Stata, Python.
 
 **Links:** [Download PDF](/files/msc_IGIDR/sem4_Climate_Term_Paper_Sankalp_Mathur.pdf)
 
-#### 7. Politics and Local Economics
-**Summary:** [Content pending]
+#### 7. Politics and Local Economic Growth: Regression Discontinuity Analysis
+**Summary:** Building on the framework of Asher & Novosad (2017), this extension project examines whether politically aligned constituencies in India experience faster economic growth due to ruling-party favoritism. Utilizing close elections to approximate random assignment, the study tests the interaction between political alignment and local infrastructure (road access), analyzing how state-level bureaucratic implementation and permit controls translate into localized economic outcomes.
 
-**Methods:** [Content pending]
+**Methods:** Regression Discontinuity Design (RDD), Local Linear Regression with Optimal Bandwidth, and Heterogeneity Analysis.
 
-**Tech:** Python, Stata.
+**Tech:** Stata, R.
 
 **Links:** [Download PDF](/files/msc_IGIDR/sem4_poleco_politics_and_local_economics_bharti_nandwani.pdf)
+
+---
+
+## Out of Interest Projects
+
+### 1. IGIDR Automatic Confession Posting System
+**Summary:** People had complained about the biasedness in the confessions being posted on the normal confession page on Instagram. Complaints mostly centered about arbitrary rejection, lack of consent from those mentioned, and insensitive content bordering on bullying. This project tries to address these problems by automating the workflow with minimal human intervention. Confessions are accepted via a simple HTML website, passing through a city location check, device fingerprinting, sentiment analysis via Google, and a consent check. If it passes all checks, it is automatically posted to the Instagram page; if flagged, it requires human review.
+
+**Methods:** SQLite database for data storage, Instagrapi unofficial API for Instagram interaction, Google Sentiment Analyzer for NLP checks, SimpleCaptcha for security, and Pillow for dynamic image templating.
+
+**Tech:** Python, HTML, CSS.
+
+**Links:** [Code](https://github.com/AmitKr-GitsHub/automatic_confession_page)
 
 ---
 <div style="text-align: center;">
