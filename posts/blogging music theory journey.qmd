@@ -5,28 +5,12 @@ description: "Talking about my experiences and hurdles in learning music theory.
 categories: [music, hobbies]
 ---
 
-A few months back, I thought about what to buy with my first month’s salary. Many people spend money on their loved ones—parents, family members, or their better half—while most spend it on themselves, trying to give themselves a little gratification for all the hard work, late-night studies, sleepless nights full of exam anxiety, and the mental torture they had to endure. I thought, why not spend it on someone—or in this case, something—that made life easier to deal with: music.
-
-I always wanted to play whatever I heard, but life had given me limited privileges to do that. My first salary, I thought, should be spent on buying a solid keyboard. But as luck would have it, I got placed in Mumbai—and *mere baap ka, dada ka, bhai ka; poore khandan mein* property *toh chhodo*, no one had ever set foot in Mumbai before. So, my entire first paycheck went toward securing a single room with a non-attached bathroom in a 1BHK. The vibe is good here, though: I get greenery and a rare slice of peace, complete with the bonus of chirping birds in the morning and squirrels chattering in the evening. And that was the end of salary number one.
-
-In the second month, the youngest in the family was graduating. Naturally, the family wanted to be there, and the younger one wanted someone around to see how he had lived for the past two years. That meant an amount equal to my rental deposit vanished into a four-day trip for two people traveling 1,800 km.
-
-This month, the bank convinced me that I am handsome, the only son of a loving family, and that my dependent mother is getting older. According to them,Here is a polished version incorporating the refined flow and tighter ending, ready for your post:
-
-```markdown
----
-title: "How I am Learning Music Theory"
-date: 2026-09-23
-description: "Talking about my experiences and hurdles in learning music theory."
-categories: [music, hobbies]
----
-
 A few months back, I thought about what to buy with my first month's salary. Many people spend money on their loved ones—parents, family members, or their better half—while most spend it on themselves, trying to offer some gratification for the hard work, late-night cram sessions, sleepless nights before exams, and every other quiet mental battle they endured. I figured: why not spend it on something that made living through all of that much easier—music.
 
 I’ve always wanted to play whatever melody caught my ear, even if circumstances rarely offered the privilege. That first paycheck felt destined for a proper keyboard. But life had other plans: I landed in Mumbai. And *mere baap ka, dada ka, bhai ka; poore khandan mein* owning property aside, no one had even visited Mumbai before. Naturally, my entire first paycheck vanished into securing a single room with an unattached bath in a 1BHK. The upside? A pocket of green, a rare patch of quiet, birds greeting the morning, and squirrels squabbling by sunset. And just like that, salary number one was spoken for.
 
 Month two rolled around, and the youngest in the family was graduating. Naturally, the family wanted to be there, and the graduate wanted witnesses to prove he survived the last two years. That meant an amount equal to my rental deposit evaporated into a four-day trip covering 1,800 kilometers.
 
-Then came month three. The bank gently reminded me that I am handsome, an only son, and that my dependent mother is aging. The logical conclusion? A term insurance policy. After all, the departed ought to leave smiles, not debts. Besides, if my hypothetical future partner grew hopelessly attached to me, she’d be crying buckets right beside my mother. Because leaving anyone broke and heartbroken is bad form, I was talked into a one-crore term cover—just in case I exit the stage earlier than expected.
+Then came month three. The bank gently remainded me that I am handsome, an only son, and that my dependent mother is aging. The logical conclusion? A term insurance policy. After all, the departed ought to leave smiles, not debts. Besides, if my hypothetical future partner grew hopelessly attached to me, she’d be crying buckets right beside my mother. Because leaving anyone broke and heartbroken is bad form, I was talked into a one-crore term cover—just in case I exit the stage earlier than expected.
 
 Mumbai riches claimed the deposit, the family claimed the travel budget, and the bank claimed the rest. So until the festive discounts roll in, I’ve put the keyboard on hold and picked up music theory on my guitar instead. 
