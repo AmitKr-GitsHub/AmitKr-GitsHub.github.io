@@ -1,36 +1,51 @@
 ---
 title: "Projects"
 toc: true
-toc-depth: 3
-toc-title: "Jump to Project"
-toc-location: right
+number-sections: false
 ---
 
 ```{=html}
 <style>
 .project-card {
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
   background-color: var(--bs-body-bg);
-  transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04), 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
 }
+
 .project-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.08) !important;
+  transform: translateY(-4px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.08), 0 4px 8px rgba(0, 0, 0, 0.05) !important;
+  border-color: rgba(13, 110, 253, 0.15);
 }
+
 .badge-tech {
-  background-color: rgba(13, 110, 253, 0.1);
-  color: #0d6efd;
-  font-weight: 500;
+  background-color: rgba(13, 110, 253, 0.08);
+  color: #0b5ed7;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 0.4em 0.8em;
+  border-radius: 50px;
   border: 1px solid rgba(13, 110, 253, 0.2);
-  margin-right: 4px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  display: inline-block;
+  letter-spacing: 0.3px;
 }
+
 .badge-method {
-  background-color: rgba(108, 117, 125, 0.1);
-  color: #495057;
-  font-weight: 500;
-  border: 1px solid rgba(108, 117, 125, 0.2);
-  margin-right: 4px;
+  background-color: rgba(25, 135, 84, 0.08);
+  color: #146c43;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 0.4em 0.8em;
+  border-radius: 50px;
+  border: 1px solid rgba(25, 135, 84, 0.2);
+  margin-right: 6px;
+  margin-bottom: 6px;
+  display: inline-block;
+  letter-spacing: 0.3px;
 }
 </style>
 
@@ -45,11 +60,13 @@ toc-location: right
 
 #### Analyzing Cyclical Components of GDP
 
-This research analyzes the cyclical and long-run trend components of key macroeconomic indicators in India and performs a comparative study of economic volatility between developed and developing economies. By detrending data from 1996 to 2019, the study demonstrates that developing countries experience significantly higher economic volatility. Furthermore, the analysis uncovers an unexpected negative correlation between India's real investment and net exports relative to real GDP.
+This research analyzes the cyclical and long-run trend components of key macroeconomic indicators in India and performs a comparative study of economic volatility between developed and developing economies. By detrending data from 1996 to 2019, the study demonstrates that developing countries experience significantly higher economic volatility. Furthermore, the analysis uncovers an unexpected negative correlation between India’s real investment and net exports relative to real GDP.
 
 **Methods:** [HP Filter]{.badge .badge-method} [Cyclical Decomposition]{.badge .badge-method} [Volatility Analysis]{.badge .badge-method}
 
 **Tools:** [Stata]{.badge .badge-tech} [Excel]{.badge .badge-tech} [LaTeX]{.badge .badge-tech}
+:::
+:::
 
 ::: {.card .project-card .shadow-sm .mb-4}
 ::: {.card-body}
@@ -61,6 +78,8 @@ This project empirically tests the absolute convergence hypothesis, which posits
 **Methods:** [OLS Regression]{.badge .badge-method} [Cross-Sectional Convergence]{.badge .badge-method} [Solow Growth Framework]{.badge .badge-method}
 
 **Tools:** [Python]{.badge .badge-tech}
+:::
+:::
 
 ::: {.card .project-card .shadow-sm .mb-4}
 ::: {.card-body}
@@ -72,6 +91,8 @@ Utilizing the Comprehensive Annual Modular Survey (CAMS) 2022-23 dataset, this s
 **Methods:** [Binary Logistic Regression]{.badge .badge-method} [Conditional Logit (Household Fixed Effects)]{.badge .badge-method} [Marginal Effects]{.badge .badge-method}
 
 **Tools:** [Stata]{.badge .badge-tech} [Python]{.badge .badge-tech}
+:::
+:::
 
 ::: {.card .project-card .shadow-sm .mb-4}
 ::: {.card-body}
@@ -83,6 +104,8 @@ Based on the framework by Aguiar and Gopinath, this presentation challenges the 
 **Methods:** [Real Business Cycle (RBC)]{.badge .badge-method} [GMM Estimation]{.badge .badge-method} [Impulse Response Functions (IRFs)]{.badge .badge-method} [Solow Residuals]{.badge .badge-method}
 
 **Tools:** [Macroeconomic Modeling]{.badge .badge-tech} [LaTeX / Beamer]{.badge .badge-tech}
+:::
+:::
 
 ::: {.card .project-card .shadow-sm .mb-4}
 ::: {.card-body}
@@ -94,6 +117,8 @@ This project extends the standard Real Business Cycle (RBC) framework by incorpo
 **Methods:** [DSGE Modeling]{.badge .badge-method} [Log-Linearization]{.badge .badge-method} [Steady-State Analysis]{.badge .badge-method} [IRFs]{.badge .badge-method}
 
 **Tools:** [Dynare]{.badge .badge-tech} [MATLAB / Octave]{.badge .badge-tech}
+:::
+:::
 
 ---
 
@@ -109,28 +134,34 @@ This case study tests the CAPM framework for a mid-cap firm to determine if mark
 **Methods:** [Time-Series Regression]{.badge .badge-method} [Fama-MacBeth Regression]{.badge .badge-method} [Robust Standard Errors]{.badge .badge-method}
 
 **Tools:** [Python]{.badge .badge-tech} [Stata]{.badge .badge-tech}
+:::
+:::
 
 ::: {.card .project-card .shadow-sm .mb-4}
 ::: {.card-body}
 
 #### Assessing the Quality of BRSR Disclosures in India
 
-This paper evaluates the quality and reliability of India's newly mandated Business Responsibility and Sustainability Reporting (BRSR) framework for NIFTY listed firms from 2022 to 2024. Despite the shift toward mandatory ESG reporting, the analysis uncovers that environmental data—specifically greenhouse gas emissions and energy intensities—are heavily compromised by systematic missingness and non-uniform reporting due to underdeveloped environmental measurement infrastructure in emerging markets.
+This paper evaluates the quality and reliability of India’s newly mandated Business Responsibility and Sustainability Reporting (BRSR) framework for NIFTY listed firms from 2022 to 2024. Despite the shift toward mandatory ESG reporting, the analysis uncovers that environmental data—specifically greenhouse gas emissions and energy intensities—are heavily compromised by systematic missingness and non-uniform reporting due to underdeveloped environmental measurement infrastructure in emerging markets.
 
 **Methods:** [Data Quality Audit]{.badge .badge-method} [Reporting Consistency Analysis]{.badge .badge-method} [Feasibility Metrics]{.badge .badge-method}
 
 **Tools:** [Python]{.badge .badge-tech} [Stata]{.badge .badge-tech}
+:::
+:::
 
 ::: {.card .project-card .shadow-sm .mb-4}
 ::: {.card-body}
 
-#### Impact of Owner's Education on Productivity of Unincorporated Enterprises
+#### Impact of Owner’s Education on Productivity of Unincorporated Enterprises
 
-This research examines how the educational attainment of enterprise owners impacts labor productivity within India's vast unincorporated and informal sector. Utilizing PLFS survey data, the findings indicate a strong positive association between an owner's education and firm productivity. Establishments run by more educated owners significantly outperform those managed by illiterate owners, and while over-education does not negatively impact output, under-education creates a substantial productivity deficit.
+This research examines how the educational attainment of enterprise owners impacts labor productivity within India’s vast unincorporated and informal sector. Utilizing PLFS survey data, the findings indicate a strong positive association between an owner’s education and firm productivity. Establishments run by more educated owners significantly outperform those managed by illiterate owners, and while over-education does not negatively impact output, under-education creates a substantial productivity deficit.
 
 **Methods:** [Cross-Sectional Productivity]{.badge .badge-method} [Efficiency Estimation]{.badge .badge-method} [Microdata Econometrics]{.badge .badge-method}
 
 **Tools:** [Stata]{.badge .badge-tech} [Python]{.badge .badge-tech}
+:::
+:::
 
 ::: {.card .project-card .shadow-sm .mb-4}
 ::: {.card-body}
@@ -142,17 +173,21 @@ Focused on the challenge of recovering high-volume, low-ticket retail Non-Perfor
 **Methods:** [Portfolio Diagnostic Snapshot]{.badge .badge-method} [Strategic Gap Analysis]{.badge .badge-method} [OSINT Architecture]{.badge .badge-method}
 
 **Tools:** [Python]{.badge .badge-tech} [OSINT Tools]{.badge .badge-tech} [API Integration]{.badge .badge-tech}
+:::
+:::
 
 ::: {.card .project-card .shadow-sm .mb-4}
 ::: {.card-body}
 
 #### Spatial Inequality in Access to Elite Public Schools
 
-This study analyzes district-level admission cut-offs for India's Jawahar Navodaya Vidyalaya (JNV) system to evaluate geographic disparities in educational access. It reveals strong regional clustering of admission thresholds and demonstrates that inequalities are driven more by applicant demographics than by school infrastructure, highlighting how local disparities are amplified through spatial spillovers. The analysis recommends building more schools in high-demand regions to make education more equitable, rejecting the hypothesis that shortfalls are purely due to higher student populations in poorer states.
+This study analyzes district-level admission cut-offs for India’s Jawahar Navodaya Vidyalaya (JNV) system to evaluate geographic disparities in educational access. It reveals strong regional clustering of admission thresholds and demonstrates that inequalities are driven more by applicant demographics than by school infrastructure, highlighting how local disparities are amplified through spatial spillovers. The analysis recommends building more schools in high-demand regions to make education more equitable, rejecting the hypothesis that shortfalls are purely due to higher student populations in poorer states.
 
-**Methods:** [Spatial Autoregressive (SAR)]{.badge .badge-method} [Global Moran's I]{.badge .badge-method} [LISA Cluster Maps]{.badge .badge-method} [Two-Way Fixed Effects]{.badge .badge-method}
+**Methods:** [Spatial Autoregressive (SAR)]{.badge .badge-method} [Global Moran’s I]{.badge .badge-method} [LISA Cluster Maps]{.badge .badge-method} [Two-Way Fixed Effects]{.badge .badge-method}
 
 **Tools:** [R]{.badge .badge-tech} [Python]{.badge .badge-tech} [Stata]{.badge .badge-tech} [GIS / Shapefiles]{.badge .badge-tech}
+:::
+:::
 
 ::: {.card .project-card .shadow-sm .mb-4}
 ::: {.card-body}
@@ -164,6 +199,8 @@ This term paper investigates the macroeconomic transmission of climate shocks—
 **Methods:** [Local Projections (Jordà 2005)]{.badge .badge-method} [Impulse Response Functions]{.badge .badge-method} [Panel Data Analysis]{.badge .badge-method}
 
 **Tools:** [Stata]{.badge .badge-tech} [Python]{.badge .badge-tech}
+:::
+:::
 
 ::: {.card .project-card .shadow-sm .mb-4}
 ::: {.card-body}
@@ -175,6 +212,8 @@ Building on the framework of Asher & Novosad (2017), this extension project exam
 **Methods:** [Regression Discontinuity Design (RDD)]{.badge .badge-method} [Local Linear Regression]{.badge .badge-method} [Optimal Bandwidth Selection]{.badge .badge-method}
 
 **Tools:** [Stata]{.badge .badge-tech} [R]{.badge .badge-tech}
+:::
+:::
 
 ---
 
@@ -190,3 +229,9 @@ People had complained about bias in the confessions posted on the student Instag
 **Methods:** [Dynamic Image Templating]{.badge .badge-method} [NLP Sentiment Filtering]{.badge .badge-method} [Device Fingerprinting]{.badge .badge-method}
 
 **Tools:** [Python]{.badge .badge-tech} [SQLite]{.badge .badge-tech} [HTML/CSS]{.badge .badge-tech} [Instagrapi]{.badge .badge-tech} [Pillow]{.badge .badge-tech}
+:::
+:::
+
+```
+
+```
