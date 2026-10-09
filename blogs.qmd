@@ -8,4 +8,4 @@ listing:
   fields: [title, date, categories, description]
 ---
 
-Welcome to the blog. Posts are auto-listed from the `/posts/` directory.
+Welcome to the blog. Here I randomly post anything I find intruguing.
