@@ -6,145 +6,187 @@ toc-title: "Jump to Project"
 toc-location: right
 ---
 
+```{=html}
+<style>
+.project-card {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  background-color: var(--bs-body-bg);
+  transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.08) !important;
+}
+.badge-tech {
+  background-color: rgba(13, 110, 253, 0.1);
+  color: #0d6efd;
+  font-weight: 500;
+  border: 1px solid rgba(13, 110, 253, 0.2);
+  margin-right: 4px;
+}
+.badge-method {
+  background-color: rgba(108, 117, 125, 0.1);
+  color: #495057;
+  font-weight: 500;
+  border: 1px solid rgba(108, 117, 125, 0.2);
+  margin-right: 4px;
+}
+</style>
+
+```
+
 ## Academic Projects
 
 ### 1st Year Projects
 
-#### 1. Analyzing Cyclical Components of GDP
-**Summary:** This research analyzes the cyclical and long-run trend components of key macroeconomic indicators in India and performs a comparative study of economic volatility between developed and developing economies. By detrending data from 1996 to 2019, the study demonstrates that developing countries experience significantly higher economic volatility. Furthermore, the analysis uncovers an unexpected negative correlation between India's real investment and net exports relative to real GDP.
+::: {.card .project-card .shadow-sm .mb-4}
+::: {.card-body}
 
-**Methods:** Hodrick-Prescott (HP) filter for cyclical decomposition, standard deviations computation, and descriptive volatility analysis.
+#### Analyzing Cyclical Components of GDP
 
-**Tech:** Stata, Excel, LaTeX.
+This research analyzes the cyclical and long-run trend components of key macroeconomic indicators in India and performs a comparative study of economic volatility between developed and developing economies. By detrending data from 1996 to 2019, the study demonstrates that developing countries experience significantly higher economic volatility. Furthermore, the analysis uncovers an unexpected negative correlation between India's real investment and net exports relative to real GDP.
 
-**Links:** [Download PDF](/files/msc_IGIDR/sem1_ANALYZING_CYCLICAL_COMPONETS_OF_GDP_sargam.pdf)
+**Methods:** [HP Filter]{.badge .badge-method} [Cyclical Decomposition]{.badge .badge-method} [Volatility Analysis]{.badge .badge-method}
 
-#### 2. Empirical Examination of Absolute Convergence Hypothesis
-**Summary:** This project empirically tests the absolute convergence hypothesis, which posits that poorer economies will grow faster than richer ones to reach a common income per capita level. Utilizing Penn World Table (PWT) and World Bank data from 1985–2019 across 89 countries, the study evaluates convergence in both GDP per capita and national investment rates (Gross Capital Formation). The findings reveal statistically significant absolute convergence during the 2000–2019 period, suggesting that rapid technology adoption post-globalization helped reduce income inequality across nations.
+**Tools:** [Stata]{.badge .badge-tech} [Excel]{.badge .badge-tech} [LaTeX]{.badge .badge-tech}
 
-**Methods:** Ordinary Least Squares (OLS) Regression, cross-sectional convergence analysis, conditional convergence testing via the Solow growth framework.
+::: {.card .project-card .shadow-sm .mb-4}
+::: {.card-body}
 
-**Tech:** Python.
+#### Empirical Examination of Absolute Convergence Hypothesis
 
-**Links:** [Download PDF](/files/msc_IGIDR/sem2_development_economics_ramaswammy.pdf)
+This project empirically tests the absolute convergence hypothesis, which posits that poorer economies will grow faster than richer ones to reach a common income per capita level. Utilizing Penn World Table (PWT) and World Bank data from 1985–2019 across 89 countries, the study evaluates convergence in both GDP per capita and national investment rates (Gross Capital Formation). The findings reveal statistically significant absolute convergence during the 2000–2019 period, suggesting that rapid technology adoption post-globalization helped reduce income inequality across nations.
 
-#### 3. Internet Inequality: The Role of Gender in Digital Access in India
-**Summary:** Utilizing the Comprehensive Annual Modular Survey (CAMS) 2022-23 dataset, this study investigates the gender digital divide in India. By applying household-level fixed effects, the research isolates intra-household differences and confirms that women are significantly less likely to use the internet compared to men residing in the same household. The empirical results emphasize that controlling for employment and educational status narrows the digital literacy gap, highlighting the critical role of workforce participation and formal education in reducing digital inequality.
+**Methods:** [OLS Regression]{.badge .badge-method} [Cross-Sectional Convergence]{.badge .badge-method} [Solow Growth Framework]{.badge .badge-method}
 
-**Methods:** Binary Logistic Regression, Conditional Logistic Regression with household-level fixed effects, Maximum Likelihood Estimation, Average Partial/Marginal Effects.
+**Tools:** [Python]{.badge .badge-tech}
 
-**Tech:** Stata, Python.
+::: {.card .project-card .shadow-sm .mb-4}
+::: {.card-body}
 
-**Links:** [Download PDF](/files/msc_IGIDR/sem2_Internet_Inequality__The_role_of_Gender_in_Digital_Access_in_India_ganesh_kr.pdf)
+#### Internet Inequality: The Role of Gender in Digital Access in India
 
-#### 4. Emerging Market Business Cycles: The Cycle is the Trend
-**Summary:** Based on the framework by Aguiar and Gopinath, this presentation challenges the traditional macroeconomic perspective on business cycles in emerging markets. The project demonstrates that economic fluctuations in emerging markets (such as Mexico) are predominantly driven by permanent shocks to the long-term trend growth, rather than just transitory fluctuations. It details how emerging markets exhibit unique characteristics, such as strongly counter-cyclical current accounts and consumption that is significantly more volatile than income.
+Utilizing the Comprehensive Annual Modular Survey (CAMS) 2022-23 dataset, this study investigates the gender digital divide in India. By applying household-level fixed effects, the research isolates intra-household differences and confirms that women are significantly less likely to use the internet compared to men residing in the same household. The empirical results emphasize that controlling for employment and educational status narrows the digital literacy gap, highlighting the critical role of workforce participation and formal education in reducing digital inequality.
 
-**Methods:** Real Business Cycle (RBC) modeling, Generalized Method of Moments (GMM) estimation, Impulse Response Functions (IRFs), Autocovariance Analysis of Solow Residuals.
+**Methods:** [Binary Logistic Regression]{.badge .badge-method} [Conditional Logit (Household Fixed Effects)]{.badge .badge-method} [Marginal Effects]{.badge .badge-method}
 
-**Tech:** Macroeconomic Modeling, Presentation Software.
+**Tools:** [Stata]{.badge .badge-tech} [Python]{.badge .badge-tech}
 
-**Links:** [Download Slides](/files/msc_IGIDR/sem2_THE_CYCLE_IS_THE_TREND_presentation_taniya.pdf)
+::: {.card .project-card .shadow-sm .mb-4}
+::: {.card-body}
 
-#### 5. Variable Capital Utilization in a Real Business Cycle Model
-**Summary:** This project extends the standard Real Business Cycle (RBC) framework by incorporating variable capital utilization (VCU), allowing firms to choose the intensity of capital use in response to economic conditions. The model features a convex depreciation function, reflecting the trade-off between higher capital services and accelerated wear-and-tear. By calibrating the DSGE model for both a developed economy (U.S.) and a developing economy (India), the study proves that VCU acts as an endogenous amplification mechanism, enabling the model to better replicate empirical business cycle dynamics—specifically the volatility and pro-cyclicality of investment and consumption.
+#### Emerging Market Business Cycles: The Cycle is the Trend
 
-**Methods:** Dynamic Stochastic General Equilibrium (DSGE) Modeling, Log-linearization, Impulse Response Functions (IRFs), Steady-State Analysis.
+Based on the framework by Aguiar and Gopinath, this presentation challenges the traditional macroeconomic perspective on business cycles in emerging markets. The project demonstrates that economic fluctuations in emerging markets (such as Mexico) are predominantly driven by permanent shocks to the long-term trend growth, rather than just transitory fluctuations. It details how emerging markets exhibit unique characteristics, such as strongly counter-cyclical current accounts and consumption that is significantly more volatile than income.
 
-**Tech:** Dynare (MATLAB/Octave).
+**Methods:** [Real Business Cycle (RBC)]{.badge .badge-method} [GMM Estimation]{.badge .badge-method} [Impulse Response Functions (IRFs)]{.badge .badge-method} [Solow Residuals]{.badge .badge-method}
 
-**Links:** [Download PDF](/files/msc_IGIDR/sem2_VAR_model_Taniya_Das.pdf)
+**Tools:** [Macroeconomic Modeling]{.badge .badge-tech} [LaTeX / Beamer]{.badge .badge-tech}
+
+::: {.card .project-card .shadow-sm .mb-4}
+::: {.card-body}
+
+#### Variable Capital Utilization in a Real Business Cycle Model
+
+This project extends the standard Real Business Cycle (RBC) framework by incorporating variable capital utilization (VCU), allowing firms to choose the intensity of capital use in response to economic conditions. The model features a convex depreciation function, reflecting the trade-off between higher capital services and accelerated wear-and-tear. By calibrating the DSGE model for both a developed economy (U.S.) and a developing economy (India), the study proves that VCU acts as an endogenous amplification mechanism, enabling the model to better replicate empirical business cycle dynamics—specifically the volatility and pro-cyclicality of investment and consumption.
+
+**Methods:** [DSGE Modeling]{.badge .badge-method} [Log-Linearization]{.badge .badge-method} [Steady-State Analysis]{.badge .badge-method} [IRFs]{.badge .badge-method}
+
+**Tools:** [Dynare]{.badge .badge-tech} [MATLAB / Octave]{.badge .badge-tech}
 
 ---
 
 ### 2nd Year Projects
 
-#### 1. Testing the Capital Asset Pricing Model (CAPM)
-**Summary:** This case study tests the CAPM framework for a mid-cap firm to determine if market excess returns adequately explain its stock returns. The analysis reveals a firm beta of 1.31, indicating higher volatility and risk compared to the broader market. With an $R^2$ of 0.89, the model confirms that firm returns are largely driven by market movements, rewarding investors with a higher risk tolerance and establishing a reliable hurdle rate for cost of equity calculations.
+::: {.card .project-card .shadow-sm .mb-4}
+::: {.card-body}
 
-**Methods:** Time-Series Regression, Fama-MacBeth Two-Pass Regression conceptually applied, OLS Regression, and Robust Standard Error corrections for heteroskedasticity.
+#### Testing the Capital Asset Pricing Model (CAPM)
 
-**Tech:** Python, Stata.
+This case study tests the CAPM framework for a mid-cap firm to determine if market excess returns adequately explain its stock returns. The analysis reveals a firm beta of 1.31, indicating higher volatility and risk compared to the broader market. With an $R^2$ of 0.89, the model confirms that firm returns are largely driven by market movements, rewarding investors with a higher risk tolerance and establishing a reliable hurdle rate for cost of equity calculations.
 
-**Links:** [Download PDF](/files/msc_IGIDR/sem3_Capm_Group_6_Avik_Sinha.pdf)
+**Methods:** [Time-Series Regression]{.badge .badge-method} [Fama-MacBeth Regression]{.badge .badge-method} [Robust Standard Errors]{.badge .badge-method}
 
-#### 2. Assessing the Quality of BRSR Disclosures in India
-**Summary:** This paper evaluates the quality and reliability of India's newly mandated Business Responsibility and Sustainability Reporting (BRSR) framework for NIFTY listed firms from 2022 to 2024. Despite the shift toward mandatory ESG reporting, the analysis uncovers that environmental data—specifically greenhouse gas emissions and energy intensities—are heavily compromised by systematic missingness and non-uniform reporting due to underdeveloped environmental measurement infrastructure in emerging markets.
+**Tools:** [Python]{.badge .badge-tech} [Stata]{.badge .badge-tech}
 
-**Methods:** Data Quality Assessment, Reporting Consistency Analysis, and the creation of a novel feasibility metric based on grid emission factors.
+::: {.card .project-card .shadow-sm .mb-4}
+::: {.card-body}
 
-**Tech:** Python, Stata.
+#### Assessing the Quality of BRSR Disclosures in India
 
-**Links:** [Download PDF](/files/msc_IGIDR/sem3_Climate_and_Economic_Policy_Term_Paper - Reviewed_manisha.pdf)
+This paper evaluates the quality and reliability of India's newly mandated Business Responsibility and Sustainability Reporting (BRSR) framework for NIFTY listed firms from 2022 to 2024. Despite the shift toward mandatory ESG reporting, the analysis uncovers that environmental data—specifically greenhouse gas emissions and energy intensities—are heavily compromised by systematic missingness and non-uniform reporting due to underdeveloped environmental measurement infrastructure in emerging markets.
 
-#### 3. Impact of Owner's Education on Productivity of Unincorporated Enterprises
-**Summary:** This research examines how the educational attainment of enterprise owners impacts labor productivity within India's vast unincorporated and informal sector. Utilizing PLFS survey data, the findings indicate a strong positive association between an owner's education and firm productivity. Establishments run by more educated owners significantly outperform those managed by illiterate owners, and while over-education does not negatively impact output, under-education creates a substantial productivity deficit.
+**Methods:** [Data Quality Audit]{.badge .badge-method} [Reporting Consistency Analysis]{.badge .badge-method} [Feasibility Metrics]{.badge .badge-method}
 
-**Methods:** Cross-sectional Productivity Analysis, Efficiency Estimation, and Survey Microdata Analysis.
+**Tools:** [Python]{.badge .badge-tech} [Stata]{.badge .badge-tech}
 
-**Tech:** Stata, Python.
+::: {.card .project-card .shadow-sm .mb-4}
+::: {.card-body}
 
-**Links:** [Download PDF](/files/msc_IGIDR/sem3_indian_eco_term_paper_chandra.pdf)
+#### Impact of Owner's Education on Productivity of Unincorporated Enterprises
 
-#### 4. Digital Tools and Recovery: Retail NPA Diagnostic
-**Summary:** Focused on the challenge of recovering high-volume, low-ticket retail Non-Performing Assets (NPAs), this case study for ABC Bank diagnoses strategic gaps where traditional recovery costs exceed the recoverable value. It proposes a transition to a data-driven recovery framework utilizing Open Source Intelligence (OSINT) and a Unified Lending Interface (ULI) to improve borrower traceability, optimize recovery costs, and reduce the overall NPA account count by 20%.
+This research examines how the educational attainment of enterprise owners impacts labor productivity within India's vast unincorporated and informal sector. Utilizing PLFS survey data, the findings indicate a strong positive association between an owner's education and firm productivity. Establishments run by more educated owners significantly outperform those managed by illiterate owners, and while over-education does not negatively impact output, under-education creates a substantial productivity deficit.
 
-**Methods:** Portfolio Diagnostic Snapshot, Strategic Gap Analysis, and OSINT Framework Application.
+**Methods:** [Cross-Sectional Productivity]{.badge .badge-method} [Efficiency Estimation]{.badge .badge-method} [Microdata Econometrics]{.badge .badge-method}
 
-**Tech:** OSINT Tools, Python (Data Fetching/Bot Integration).
+**Tools:** [Stata]{.badge .badge-tech} [Python]{.badge .badge-tech}
 
-**Links:** [Download PDF](/files/msc_IGIDR/sem4_case_study_bank_policy_by_Balu.pdf)
+::: {.card .project-card .shadow-sm .mb-4}
+::: {.card-body}
 
-#### 5. Spatial Inequality in Access to Elite Public Schools
-**Summary:** This study analyzes district-level admission cut-offs for India's Jawahar Navodaya Vidyalaya (JNV) system to evaluate geographic disparities in educational access. It reveals strong regional clustering of admission thresholds and demonstrates that inequalities are driven more by applicant demographics than by school infrastructure, highlighting how local disparities are amplified through spatial spillovers. The analysis recommends building more schools in high-demand regions to make education more equitable, rejecting the hypothesis that shortfalls are purely due to higher student populations in poorer states.
+#### Digital Tools and Recovery: Retail NPA Diagnostic
 
-**Methods:** Spatial Econometrics (SAR models), Spatial Autocorrelation (Global Moran's $I$, LISA Cluster Maps), OLS with Two-Way Fixed Effects, and Rank Persistence Analysis.
+Focused on the challenge of recovering high-volume, low-ticket retail Non-Performing Assets (NPAs), this case study for ABC Bank diagnoses strategic gaps where traditional recovery costs exceed the recoverable value. It proposes a transition to a data-driven recovery framework utilizing Open Source Intelligence (OSINT) and a Unified Lending Interface (ULI) to improve borrower traceability, optimize recovery costs, and reduce the overall NPA account count by 20%.
 
-**Tech:** R, Python, Stata, GIS/Shapefiles.
+**Methods:** [Portfolio Diagnostic Snapshot]{.badge .badge-method} [Strategic Gap Analysis]{.badge .badge-method} [OSINT Architecture]{.badge .badge-method}
 
-**Links:** [Download PDF](/files/msc_IGIDR/sem4_spatial_inequality_jandhaya_bg_tilak.pdf)
+**Tools:** [Python]{.badge .badge-tech} [OSINT Tools]{.badge .badge-tech} [API Integration]{.badge .badge-tech}
 
-#### 6. Climate Shocks and Inflation in Indian States
-**Summary:** This term paper investigates the macroeconomic transmission of climate shocks—specifically rainfall and extreme temperature anomalies—into state-level inflation dynamics across India. The research disaggregates the effects on headline inflation, food and beverages, and fuel and light, demonstrating that abnormal weather conditions create significant inflationary pressures that operate with lags through agricultural losses, supply disruptions, and local market adjustments.
+::: {.card .project-card .shadow-sm .mb-4}
+::: {.card-body}
 
-**Methods:** Local Projections Approach (Jordà 2005), Impulse Response Functions (IRFs), and State-level Panel Data Analysis.
+#### Spatial Inequality in Access to Elite Public Schools
 
-**Tech:** Stata, Python.
+This study analyzes district-level admission cut-offs for India's Jawahar Navodaya Vidyalaya (JNV) system to evaluate geographic disparities in educational access. It reveals strong regional clustering of admission thresholds and demonstrates that inequalities are driven more by applicant demographics than by school infrastructure, highlighting how local disparities are amplified through spatial spillovers. The analysis recommends building more schools in high-demand regions to make education more equitable, rejecting the hypothesis that shortfalls are purely due to higher student populations in poorer states.
 
-**Links:** [Download PDF](/files/msc_IGIDR/sem4_Climate_Term_Paper_Sankalp_Mathur.pdf)
+**Methods:** [Spatial Autoregressive (SAR)]{.badge .badge-method} [Global Moran's I]{.badge .badge-method} [LISA Cluster Maps]{.badge .badge-method} [Two-Way Fixed Effects]{.badge .badge-method}
 
-#### 7. Politics and Local Economic Growth: Regression Discontinuity Analysis
-**Summary:** Building on the framework of Asher & Novosad (2017), this extension project examines whether politically aligned constituencies in India experience faster economic growth due to ruling-party favoritism. Utilizing close elections to approximate random assignment, the study tests the interaction between political alignment and local infrastructure (road access), analyzing how state-level bureaucratic implementation and permit controls translate into localized economic outcomes.
+**Tools:** [R]{.badge .badge-tech} [Python]{.badge .badge-tech} [Stata]{.badge .badge-tech} [GIS / Shapefiles]{.badge .badge-tech}
 
-**Methods:** Regression Discontinuity Design (RDD), Local Linear Regression with Optimal Bandwidth, and Heterogeneity Analysis.
+::: {.card .project-card .shadow-sm .mb-4}
+::: {.card-body}
 
-**Tech:** Stata, R.
+#### Climate Shocks and Inflation in Indian States
 
-**Links:** [Download PDF](/files/msc_IGIDR/sem4_poleco_politics_and_local_economics_bharti_nandwani.pdf)
+This term paper investigates the macroeconomic transmission of climate shocks—specifically rainfall and extreme temperature anomalies—into state-level inflation dynamics across India. The research disaggregates the effects on headline inflation, food and beverages, and fuel and light, demonstrating that abnormal weather conditions create significant inflationary pressures that operate with lags through agricultural losses, supply disruptions, and local market adjustments.
+
+**Methods:** [Local Projections (Jordà 2005)]{.badge .badge-method} [Impulse Response Functions]{.badge .badge-method} [Panel Data Analysis]{.badge .badge-method}
+
+**Tools:** [Stata]{.badge .badge-tech} [Python]{.badge .badge-tech}
+
+::: {.card .project-card .shadow-sm .mb-4}
+::: {.card-body}
+
+#### Politics and Local Economic Growth: Regression Discontinuity Analysis
+
+Building on the framework of Asher & Novosad (2017), this extension project examines whether politically aligned constituencies in India experience faster economic growth due to ruling-party favoritism. Utilizing close elections to approximate random assignment, the study tests the interaction between political alignment and local infrastructure (road access), analyzing how state-level bureaucratic implementation and permit controls translate into localized economic outcomes.
+
+**Methods:** [Regression Discontinuity Design (RDD)]{.badge .badge-method} [Local Linear Regression]{.badge .badge-method} [Optimal Bandwidth Selection]{.badge .badge-method}
+
+**Tools:** [Stata]{.badge .badge-tech} [R]{.badge .badge-tech}
 
 ---
 
 ## Out of Interest Projects
 
-#### 1. Amex Campus Challenge
-**Summary:** 
+::: {.card .project-card .shadow-sm .mb-4}
+::: {.card-body}
 
-**Methods:** 
+#### IGIDR Automatic Confession Posting System
 
-**Tech:** Python
+People had complained about bias in the confessions posted on the student Instagram page, primarily around arbitrary rejection, lack of consent from those mentioned, and insensitive content. This project automates the moderation and posting workflow with minimal human intervention. Confessions are accepted via a web interface, routed through location validation, device fingerprinting, sentiment analysis via Google Cloud, and consent checks. If approved, confessions are dynamically rendered into image cards and published directly; flagged submissions are held for human review.
 
-**Links:** [Code](https://github.com/AmitKr-GitsHub/automatic_confession_page)
+**Methods:** [Dynamic Image Templating]{.badge .badge-method} [NLP Sentiment Filtering]{.badge .badge-method} [Device Fingerprinting]{.badge .badge-method}
 
-#### 2. IGIDR Automatic Confession Posting System
-**Summary:** People had complained about the biasedness in the confessions being posted on the normal confession page on Instagram. Complaints mostly centered about arbitrary rejection, lack of consent from those mentioned, and insensitive content bordering on bullying. This project tries to address these problems by automating the workflow with minimal human intervention. Confessions are accepted via a simple HTML website, passing through a city location check, device fingerprinting, sentiment analysis via Google, and a consent check. If it passes all checks, it is automatically posted to the Instagram page; if flagged, it requires human review.
-
-**Methods:** SQLite database for data storage, Instagrapi unofficial API for Instagram interaction, Google Sentiment Analyzer for NLP checks, SimpleCaptcha for security, and Pillow for dynamic image templating.
-
-**Tech:** Python, HTML, CSS.
-
-**Links:** [Code](https://github.com/AmitKr-GitsHub/automatic_confession_page)
-
----
-<div style="text-align: center;">
-  Visits: ![](https://visitor-badge.laobi.icu/badge?page_id=amitkr_projects)
-</div>
+**Tools:** [Python]{.badge .badge-tech} [SQLite]{.badge .badge-tech} [HTML/CSS]{.badge .badge-tech} [Instagrapi]{.badge .badge-tech} [Pillow]{.badge .badge-tech}
